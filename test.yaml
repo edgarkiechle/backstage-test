@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edgar-app
+  description: This is Edgar's app
+  tags:
+    - c++
+    - website
+    - app
+spec:
+  type: service
+  lifecycle: production
+  owner: edgar-app-team
